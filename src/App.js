@@ -6,7 +6,7 @@ import {Switch, Route, Link, useHistory} from 'react-router-dom';
 import UploadPage from './upload';
 import ProductPage from './product';
 import {Button} from 'antd';
-import {DownloadOutlined} from '@ant-design/icons'
+import {DownloadOutlined} from '@ant-design/icons';
 
 function App() {
   const history = useHistory();
